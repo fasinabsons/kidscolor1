@@ -1,0 +1,40 @@
+name: colorspark
+description: A kids' coloring app
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17        # For SVG rendering
+  google_mobile_ads: ^6.0.0  # For ads
+  audioplayers: ^6.4.0      # For sounds and music
+  shared_preferences: ^2.5.3 # For local storage
+  path_provider: ^2.1.5      # For saving files
+  image_gallery_saver: ^2.0.3 # For saving to gallery
+  share_plus: ^10.1.4        # For sharing
+  lottie: ^3.3.1             # For animations
+  confetti: ^0.8.0           # For confetti effect
+  flutter_lints: ^5.0.0      # For linting
+  path_parsing: ^1.1.0     # For drawing paths
+  xml: ^6.5.0
+  intl: ^0.20.2
+  path_drawing: ^1.0.1
+  vector_graphics: ^1.1.18
+
+dev_dependencies:
+    vector_graphics_compiler: ^1.1.11+1
+    build_runner: ^2.4.15
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/coloring_pages/          # Directory for images
+    - assets/sounds/         # Directory for sounds
+    - assets/music/background.mp3 
+    - assets/animations/        # Directory for Lottie animations
+    - assets/badges/ # Badges
